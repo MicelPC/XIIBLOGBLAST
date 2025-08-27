@@ -1,0 +1,12 @@
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.nav-item.active {
+  background-color: #629dce;
+  color: #fff;
+}

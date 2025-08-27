@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XIIBLOG BLAST</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-orange-100 min-h-screen">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <div class="text-4xl font-bold text-blue-400" style="font-family: 'Acme', sans-serif;">XIIBLOG BLAST 2025/2026</div>
+        <div class="flex space-x-1">
+          <a href="index.html" class="nav-item px-4 py-2 rounded-lg hover:bg-purple-100 active">Home</a>
+          <a href="homeroom.html" class="nav-item px-4 py-2 rounded-lg hover:bg-purple-100">Homeroom Teacher</a>
+          <a href="Classrep.html" class="nav-item px-4 py-2 rounded-lg hover:bg-purple-100">Representative</a>
+          <a href="subject.html" class="nav-item px-4 py-2 rounded-lg hover:bg-purple-100">Subject</a>
+          <a href="contact.html" class="nav-item px-4 py-2 rounded-lg hover:bg-purple-100">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Halaman (Home, Wali Kelas, Members, Subjects, Contact) -->
+  <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <div class="bg-blue-500 rounded-xl shadow-lg p-7 text-center mb-3">
+                <h1 class="text-5xl font-bold text-white mb-3" style="font-family: cursive;">✨Welcome To Our Class Website✨</h1>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-3 text-center mb-12">
+               <p class="text-xl text-gray-600 max-w-3xl mx-auto">Live😛 Love🩵 Laugh😂 XIIB🐥</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">👩🏻‍🏫</div>
+                    <h3 class="text-xl font-semibold mb-3">Homeroom Teacher</h3>
+                    <p class="text-gray-600">Introducing our homeroom teacher 😍</p>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">👥</div>
+                    <h3 class="text-xl font-semibold mb-3">Representative</h3>
+                    <p class="text-gray-600">Get to know our class representatives!🐤🐥🐣🍗</p>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">📚</div>
+                    <h3 class="text-xl font-semibold mb-3">Subjects</h3>
+                    <p class="text-gray-600">These are the things we learn in this class 🏫</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Vision & Mission</h2>
+                <div class="grid md:grid-cols-2 gap-8 mt-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-3">Vision</h3>
+                        <p class="text-gray-600">Menjadi kelas yang berprestasi, kompak, dan saling mendukung dalam mencapai cita-cita bersama.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-3">Mission</h3>
+                        <p class="text-gray-600">Menciptakan lingkungan belajar yang kondusif, membangun persahabatan yang erat, dan meraih prestasi terbaik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Copy semua <div id="home" ...> sampai contact dari kode sebelumnya -->
+  <!-- Tidak berubah, hanya fungsi showPage pindah ke script.js -->
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
